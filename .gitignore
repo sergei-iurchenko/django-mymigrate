@@ -1,0 +1,4 @@
+*.pyc
+django_mymigrate.egg-info
+dist
+.idea
