@@ -13,7 +13,7 @@ setup(
     license='BSD License',
     description='django-mymigrate is a wrapper on south that allows to quickly migrate all project apps with one command.',
     long_description=README,
-    url='http://www.example.com/',
+    url='https://github.com/hellpain/django-mymigrate',
     author='hellpain',
     author_email='urchenko88@gmail.com',
     classifiers=[
