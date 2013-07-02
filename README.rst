@@ -8,17 +8,17 @@ django-mymigrate is a wrapper on south that allows to quickly migrate all projec
 Commands
 -----------
 
-1) ./manage.py mymigrate -i
+- ./manage.py mymigrate -i
 
 Creates initial migrations for all apps in project directory.
 It is equivalent to run "./manage.py schemamigration app_name --initial" through all apps in project directory.
 
-2) ./manage.py mymigrate -a
+- ./manage.py mymigrate -a
 
 Create auto migrations for all apps in project directory.
 It is equivalent to run "./manage.py schemamigration app_name --auto" through all apps in project directory.
 
-3) ./manage.py mymigrate -d
+- ./manage.py mymigrate -d
 
 Deletes all migrations on disk and database.
 
@@ -29,7 +29,7 @@ Typical use
 
 Create all tables
 
-2)./manage.py mymigrate -i
+2) ./manage.py mymigrate -i
 
 Creates initial migrations for all apps in project directory.
 
