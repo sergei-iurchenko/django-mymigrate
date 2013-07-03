@@ -8,6 +8,10 @@ django-mymigrate is a wrapper on south that allows to quickly migrate all projec
 
 - https://github.com/hellpain/django-mymigrate
 
+Installation
+-----------
+
+pip install django-mymigrate
 
 Commands
 -----------
