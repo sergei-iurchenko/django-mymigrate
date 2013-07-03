@@ -3,7 +3,9 @@ django-mymigrate
 =====
 
 django-mymigrate is a wrapper on south that allows to quickly migrate all project apps with one command.
+
 - version 0.1.1
+
 - https://github.com/hellpain/django-mymigrate
 
 
