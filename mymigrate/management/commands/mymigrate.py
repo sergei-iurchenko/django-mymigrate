@@ -5,6 +5,10 @@ import shutil
 from django.core.management.base import BaseCommand
 from optparse import make_option
 from django.conf import settings
+# in your settings.py
+# from os.path import join, normpath, dirname
+# PROJECT_ROOT = join(normpath(dirname(__file__)), '..')
+
 
 from south.models import MigrationHistory
 

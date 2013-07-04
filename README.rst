@@ -13,6 +13,12 @@ Installation
 
 pip install django-mymigrate
 
+In your settings.py define PROJECT_ROOT as a folder containing all your apps.
+
+from os.path import join, normpath, dirname
+
+PROJECT_ROOT = join(normpath(dirname(__file__)), '..')
+
 Commands
 -----------
 
