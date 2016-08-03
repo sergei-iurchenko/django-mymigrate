@@ -6,7 +6,7 @@ django-mymigrate is a wrapper on south that allows to quickly migrate all projec
 
 - version 0.2
 
-- https://github.com/hellpain/django-mymigrate
+- https://github.com/syurchenko/django-mymigrate
 
 Installation
 -----------
